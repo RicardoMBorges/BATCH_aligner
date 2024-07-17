@@ -2,6 +2,15 @@
 
 This repository contains scripts and functions for batch correction and feature alignment of mass spectrometry data processed with MZmine. The pipeline includes parsing MGF files, extracting values from MetaboAnalyst CSV files, aligning features across batches, filtering based on cosine similarity, and visualizing mass spectrometry spectra.
 
+## Data Requirements:
+
+1. Process each batch using MZMine accordingly.
+2. Export the aligned feature list for applying the exported data to:
+    (a) GNPS-FBMN (xxxx_quant.csv + xxxx.mgf)
+    (b) MetaboAnalyst (xxxx_MetaboAnalyst.csv)
+3. Name the exported files as follows: xxxx_batch#.mgf, xxxx_batch#.csv, xxxx_batch#_MetaboAnalyst.csv
+    xxxx is the "project name" (e.g., "PHerb1"), and # refers to the batch number.
+
 ## Setup
 
 ### Requirements
