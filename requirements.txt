@@ -1,0 +1,11 @@
+numpy
+pandas
+plotly
+matplotlib
+seaborn 
+pycombat
+sklearn
+scikit-learn
+pyteomics
+itertools
+
